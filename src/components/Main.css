@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.Main {
+  background-color: red;
+  height: 850px;
+  margin: 0;
+
+  h1 {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
