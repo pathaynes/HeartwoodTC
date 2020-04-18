@@ -1,5 +1,6 @@
 {
-  "name": "HeartwoodTC",
+  "homepage": "https://github.com/pathaynes/HeartwoodTC",
+  "name": "heartwoodtc",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -25,8 +26,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -61,5 +64,12 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pathaynes/HeartwoodTC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pathaynes/HeartwoodTC/issues"
   }
 }
