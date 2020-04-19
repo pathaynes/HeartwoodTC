@@ -1,0 +1,78 @@
+.Burger {
+  position: fixed;
+  top: 3.5%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  button {
+    background-color: rgba(0, 0, 255, 0);
+    width: 8em;
+    display: block;
+    height: 20em;
+    padding: 0;
+    margin: 0;
+    outline: none !important;
+    border: none; 
+  }
+  
+  div {
+    width: 3rem;
+    height: 0.25rem;
+    background: white;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+    margin: 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .down {
+     color: white;
+
+  }
+
+  .up {
+
+    div:nth-child(1) {
+      transform: rotate(23deg);
+    }
+
+    div:nth-child(2) {
+      background: rgba(255, 255, 255, 0);
+    }
+
+    div:nth-child(3) {
+      transform: rotate(-23deg);
+    }
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .Burger {
+    top: 2%;
+    right: 10%;
+    
+    div {
+      margin-left: 0 !important;
+    }
+
+  }
+}
